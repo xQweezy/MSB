@@ -14,26 +14,21 @@
 
 ## 🚀 Установка и запуск
 
-### 1. Клонируйте репозиторий
-```bash
-git clone https://github.com/ВАШ_ЛОГИН/telegram_summarizer_bot.git
-cd telegram_summarizer_bot
+1. **Клонируйте репозиторий**  
+   ```bash
+   git clone https://github.com/ВАШ_ЛОГИН/telegram_summarizer_bot.git
+   cd telegram_summarizer_bot
 2. Создайте виртуальное окружение
-bash
 python -m venv venv
 source venv/bin/activate        # Linux/macOS
 venv\Scripts\activate            # Windows
 3. Установите зависимости
-bash
 pip install -r requirements.txt
 4. Настройте переменные окружения
 Создайте файл .env и добавьте в него:
-
-env
 BOT_TOKEN=ваш_токен_от_BotFather
 BOT_PROXY=socks5://логин:пароль@ip:порт   # если нужен прокси, иначе удалите строку
 5. Запустите бота
-bash
 python bot.py
 При первом запуске модель автоматически скачается (≈1.4 ГБ). Время загрузки зависит от интернета, последующие запуски будут быстрее.
 
@@ -47,6 +42,7 @@ telegram_summarizer_bot/
 └── utils/
     ├── parser.py        # извлечение текста из ссылки
     └── summarizer.py    # локальная модель суммаризации
+
 🧠 Как это работает
 Пользователь отправляет ссылку.
 
