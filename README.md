@@ -56,3 +56,4 @@ torch	Вычисления нейросети
 trafilatura	Парсинг веб‑страниц
 sqlite3	Локальная база данных (кэш, история)
 aiohttp	Асинхронные HTTP‑запросы (прокси)
+<img width="6306" height="7446" alt="deepseek_mermaid_20260323_eb3cd3" src="https://github.com/user-attachments/assets/ae94ff39-8130-437c-9618-27204dfd1f9e" />
