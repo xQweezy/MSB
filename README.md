@@ -18,6 +18,7 @@
 ```bash
 git clone https://github.com/xQweezy/telegram_summarizer_bot.git
 cd telegram_summarizer_bot
+```
 2. Создайте виртуальное окружение
 ```bash
 python -m venv venv
@@ -33,7 +34,8 @@ pip install -r requirements.txt
 Создайте файл .env и добавьте в него:
 BOT_TOKEN=ваш_токен_от_BotFather
 BOT_PROXY=socks5://логин:пароль@ip:порт   # если нужен прокси, иначе удалите строку
-6. Запустите бота
+```
+5. Запустите бота
 ```bash
 python bot.py
 При первом запуске модель автоматически скачается (≈1.4 ГБ). Время загрузки зависит от интернета, последующие запуски будут быстрее.
